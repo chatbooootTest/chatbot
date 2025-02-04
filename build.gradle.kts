@@ -20,6 +20,9 @@ repositories {
 }
 
 dependencies {
+
+	implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.3.0")
+
 	implementation("org.springframework.boot:spring-boot-starter-data-mongodb")
 	implementation("org.springframework.boot:spring-boot-starter-security")
 	implementation("org.springframework.boot:spring-boot-starter-thymeleaf")
@@ -29,6 +32,7 @@ dependencies {
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("org.springframework.security:spring-security-test")
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+
 
 
 }
